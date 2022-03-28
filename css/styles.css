@@ -1,0 +1,158 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: "Montserrat";
+}
+p {
+  color: grey;
+}
+
+/* HEADINGS */
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* TITLE */
+
+#title {
+  background-color: #ff4c67;
+  color: #fff;
+  text-align: left;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* NAVIGATION-BAR */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 500;
+
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1rem
+}
+.dog-pic {
+  transform: rotate(25deg);
+  width: 60%;
+  padding-left: 2rem;
+  position: absolute;
+  right: 30%;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* FEATURES */
+
+#features {
+  background-color: #FFF;
+  padding: 7% 15%;
+  position: relative;
+}
+.feature-title {
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.feature-box {
+  padding: 40px;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68
+}
+
+/* TESTIMONIAL */
+
+#testimonials {
+  background-color: #EF8172;
+  color: #FFF;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+/* PRESS */
+
+#press {
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING */
+
+#pricing {
+  padding: 100px;
+}
+.section-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.pricing-text {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+@media (max-width: 769px) {
+  #title {
+    text-align: center;
+  }
+  .dog-pic {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CALL-TO-ACTION */
+
+#cta {
+  background-color: #FF4C68;
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #FFF;
+  padding: 5% 5%;
+}
+.foot {
+  font-size: 3rem;
+  padding: 0 15%;
+}
+#footer {
+  background-color: #FFF;
+  padding-bottom: 5%;
+}
+.social {
+  padding: 70px 10px 15px 10px;
+}
